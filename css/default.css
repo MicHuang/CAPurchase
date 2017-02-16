@@ -1,0 +1,35 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 40px;
+}
+
+.box {
+  border: 1px red dotted;
+}
+
+.navbar {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 90%;
+  height: 40px;
+  font-size: 12px;
+  border-top: 1px solid #eee;
+  margin-left: 40px;
+  color: gray;
+}
+
+#Copyright p{
+  text-align:left;
+}
