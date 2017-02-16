@@ -1,7 +1,53 @@
-.site-wrapper-inner {
-  margin-left: 40px;
+body {
+  height: 100%;
 }
 
-.footer {
-  
+.product-container img {
+  opacity: 1;
+}
+
+.product-container img:hover {
+  opacity: 0.8;
+}
+
+.starter {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.box {
+  border: 1px red dotted;
+}
+
+.col-md-3 {
+  text-align: center;
+}
+
+.product-row a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.left-bar {
+  height: 100%;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 90%;
+  height: 40px;
+  font-size: 12px;
+  border-top: 1px solid #eee;
+  margin-left: 40px;
+  color: gray;
+}
+
+#navbar-right {
 }
