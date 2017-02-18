@@ -14,8 +14,9 @@ var NameList = React.createClass({
     };
   },
   render: function(){
+    var link = 'contacts/'+{this.state.contacts.phone}+'.html';
     return (
-      <a href='contacts/'+{this.state.contacts.phone}+'.html'>
+      <a href={link}>
           <li>{this.state.contacts.name}</li>
       </a>
     );
