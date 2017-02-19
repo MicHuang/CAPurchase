@@ -1,7 +1,7 @@
 var NameList = React.createClass({
   getInitialState: function(){
     return {
-      contacts: {
+      contacts: [
         {
           name: '时瑞琪',
           phone: 13051162287
@@ -10,7 +10,7 @@ var NameList = React.createClass({
           name: '胡若婕(Banana)',
           phone: 18515155564
         }
-      }
+      ]
     };
   },
   render: function(){
@@ -23,4 +23,4 @@ var NameList = React.createClass({
   }
 });
 
-ReactDOM.render(,document.getElementById('test'));
+ReactDOM.render(<NameList />,document.getElementById('test'));
